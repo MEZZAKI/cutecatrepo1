@@ -1,0 +1,50 @@
+.main-div {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+.cat {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.first.cat {
+    align-items: flex-end;
+    align-items: center;
+}
+
+.second.cat {
+    align-items: flex-start;
+    align-items: center;
+}
+
+.cat:hover {
+    background-color: #f4f0de;
+}
+
+.cat img {
+    width: 25vh;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2vh;
+}
+
+.cat td {
+    align-items: flex-start;
+    width: 25vh;
+    height: 1vh;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2vh;
+}
+
+.cat img {
+    width: 40vh;
+    height: 40vh;
+}

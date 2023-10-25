@@ -1,0 +1,24 @@
+.cat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cat img {
+    width: 30vh;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2vh;
+}
+
+.cat td {
+    align-items: flex-start;
+    width: 30vh;
+    height: 1vh;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2vh;
+}

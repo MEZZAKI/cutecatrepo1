@@ -1,0 +1,22 @@
+<div align="center">
+    <button (click)="resetScoreAllCats()">
+        RESET SCORE
+    </button>
+    <h1> Results :</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Picture</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cat of cats; index as i">
+                <td># {{i+1}}</td>
+                <td class="cat"><img [src]="cat.url"></td>
+                <td>{{cat.score}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
